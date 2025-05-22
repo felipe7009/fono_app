@@ -1,0 +1,57 @@
+<ion-content>
+  
+  <ion-card>
+    <ion-card-header> 
+      <ion-card-title>Estrategias de estimulación</ion-card-title>
+    </ion-card-header>
+
+
+    <ion-card-content>
+      <h1>Estrategias de estimulación</h1><br>
+      <h2><strong> Deje que el niño tome la iniciativa:</strong> </h2>
+      <p> {{ iniciativa }}</p> <br>
+      <h2><strong> Mirelo a la cara:</strong> </h2>
+      <p> {{ mirelo_a_la_cara1 }}</p> <br>
+      <div style="display: flex;">
+        <ion-img [src]="Imagen1" style="width: 150px;"></ion-img>
+        <ion-img [src]="Imagen2" style="width: 150px;"></ion-img>
+      </div>
+      <ion-list>
+        <ul>
+          <li> <p> {{ mirelo_a_la_cara2 }}</p></li>
+          <li> <p> {{ mirelo_a_la_cara3 }}</p></li>
+          <li> <p> {{ mirelo_a_la_cara4 }}</p></li>
+          
+        </ul>
+      </ion-list>
+      <p> {{ mirelo_a_la_cara5 }}</p> <br>
+      <p> {{ mirelo_a_la_cara6 }}</p> <br>
+      <p> {{ mirelo_a_la_cara7 }}</p> <br>
+      <h2><strong> Observar:</strong> </h2>
+      <p> {{ observar1 }}</p> <br>
+      <div class="imagen3" >
+        <ion-img [src]="Imagen3" style="width: 250px; height: 250px;" ></ion-img> <br>
+      </div>
+      <h2><strong> Esperar:</strong> </h2>
+      <p>{{ esperar1 }} </p> <br>
+      <h2><strong> Escuchar:</strong> </h2>
+      <p>{{ escuchar1 }} </p>
+      <ion-img></ion-img>
+     
+      <div class="imagen4">
+        <ion-img [src]="Imagen4" style="width: 250px; height: 250px;" ></ion-img>
+      </div>
+
+
+    </ion-card-content>
+
+    <ion-card-content>
+      <div class="video-container">
+        <object width="420" height="315" data="https://www.youtube.com/embed/Kzzf0qZ9UVg?si=Pend2PgOGkUGdOFQ"></object>
+
+      </div>
+
+    </ion-card-content>
+
+  </ion-card>
+</ion-content>

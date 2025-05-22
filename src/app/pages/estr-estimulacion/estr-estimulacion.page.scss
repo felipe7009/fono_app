@@ -1,0 +1,25 @@
+ion-content, ion-card, ion-card-header, ion-card-title, ion-card-content, h1, h2, p, ul, li {
+  font-family: 'Hedvig Letters Serif', serif;
+}
+
+/* Resto de tu CSS existente */
+
+h1 {
+  font-family: 'Hedvig Letters Serif', serif;
+}
+
+.video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.imagen3 {
+  display: grid;
+  place-items: center;
+}
+.imagen4 {
+  display: grid;
+  place-items: center;
+}

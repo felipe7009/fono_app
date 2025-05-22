@@ -1,0 +1,51 @@
+<ion-app>
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-button (click)="toggleMenu()">
+          <ion-icon color="dark" name="menu"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-menu menuId="main-menu" contentId="main" #menu>
+    <ion-content>
+      <div class="menu-header-bg"></div>
+      <div class="header-content">
+        <img src="../assets/images/avatar.jpg" alt="">
+        <ion-label>
+          <h2>HOLA</h2>
+          <p>BIENVENIDO</p>
+        </ion-label>
+      </div>
+
+      <ion-list class="menu-items" lines="none">
+        <ion-item routerLink="/inicio" routerLinkActive="active" (click)="closeMenu()">
+          <ion-icon name="home-outline"></ion-icon>Inicio
+        </ion-item>
+        <ion-item routerLink="/quiz" routerLinkActive="active" (click)="closeMenu()">
+          <ion-icon name="pencil-outline"></ion-icon>Encuesta
+        </ion-item>
+        <ion-item routerLink="/juego" routerLinkActive="active" (click)="closeMenu()">
+          <ion-icon name="extension-puzzle-outline"></ion-icon>Importancia del Juego
+        </ion-item>
+        <ion-item routerLink="/estr-estimulacion" routerLinkActive="active"  (click)="closeMenu()" >
+          <ion-icon name="bulb"></ion-icon>Estrategias de estimulación
+        </ion-item>
+        <ion-item routerLink="/talleres" routerLinkActive="active" (click)="closeMenu()">
+          <ion-icon name="book-outline"></ion-icon>Talleres
+        </ion-item>
+        <ion-item routerLink="/estim-por-niveles" routerLinkActive="active" (click)="closeMenu()">
+          <ion-icon name="reader-outline"></ion-icon>Estimulacion por nivel
+        </ion-item>
+        <ion-item routerLink="/material-descargable" routerLinkActive="active" (click)="closeMenu()">
+          <ion-icon name="cloud-download-outline"></ion-icon>Material descargable
+        </ion-item>
+      </ion-list>
+      
+
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>

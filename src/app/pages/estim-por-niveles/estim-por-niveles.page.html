@@ -1,0 +1,55 @@
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Estimulación por niveles</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <h1>Estimulación por niveles</h1><br>
+      <ion-list>
+        <ion-item button (click)="showDescubridor = !showDescubridor">Descubridor</ion-item>
+        <div *ngIf="showDescubridor">
+          <p>En la etapa de Descubridor, los niños muestran una curiosidad innata por el entorno que los rodea. Se
+            centran en explorar y descubrir nuevas experiencias sensoriales. Observan con atención, responden a
+            estímulos y comienzan a reconocer voces y objetos familiares. Esta fase es crucial para el desarrollo
+            temprano, ya que sienta las bases para la comprensión del mundo que los rodea y estimula su capacidad de
+            atención y reconocimiento.</p> <br>
+          <ion-img src="https://soyemprendedor.co/wp-content/uploads/2016/12/ninos-comunicacion.jpg"></ion-img>
+
+        </div>
+
+        <ion-item button (click)="showComunicador = !showComunicador">Comunicador</ion-item>
+        <div *ngIf="showComunicador">
+          <p>Al ser comunicadores, los niños muestran un mayor interés en comunicarse de manera activa. Se enfocan en
+            desarrollar habilidades lingüísticas básicas, como la imitación de sonidos y gestos simples. Los
+            profesionales de la fonoaudiología trabajan para fomentar la interacción social y la expresión verbal,
+            utilizando juegos y actividades que promueven la atención conjunta y el intercambio comunicativo.</p>
+          <ion-img src="ruta-a-tu-imagen-1"></ion-img>
+          <ion-img src="ruta-a-tu-imagen-2"></ion-img>
+        </div>
+
+        <ion-item button (click)="showPrimerasPalabras = !showPrimerasPalabras">Primeras Palabras</ion-item>
+        <div *ngIf="showPrimerasPalabras">
+          <p>Esta fase crucial del desarrollo del lenguaje, los niños comienzan a producir sus primeras palabras de
+            manera intencional. Los especialistas en fonoaudiología trabajan en estrecha colaboración con los niños y
+            sus familias para ampliar su vocabulario y mejorar su capacidad para comunicar sus necesidades y deseos. Se
+            utilizan estrategias como el modelado de palabras, el refuerzo positivo y el juego interactivo para
+            estimular el desarrollo del habla.</p>
+          <ion-img src="ruta-a-tu-imagen-1"></ion-img>
+          <ion-img src="ruta-a-tu-imagen-2"></ion-img>
+        </div>
+
+        <ion-item button (click)="showCombinador = !showCombinador">Combinador</ion-item>
+        <div *ngIf="showCombinador">
+          <p>Acá los niños comienzan a combinar palabras para formar frases simples y expresar ideas más
+            complejas. Los fonoaudiólogos se centran en mejorar la fluidez y la claridad del habla, así como en promover
+            la comprensión del lenguaje. Utilizan actividades estructuradas y creativas para fomentar la construcción de
+            oraciones, el desarrollo de la gramática y la narración de historias, lo que permite a los niños comunicarse
+            de manera más efectiva en una variedad de contextos.</p>
+          <ion-img src="ruta-a-tu-imagen-1"></ion-img>
+          <ion-img src="ruta-a-tu-imagen-2"></ion-img>
+        </div>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

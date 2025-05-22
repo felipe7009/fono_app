@@ -1,0 +1,77 @@
+{
+    "preguntas": [
+      {
+        "texto": "¿Qué hace tu hijo cuando quiere algo?",
+        "opciones": [
+          "Señala con el dedo o la mirada",
+          "Emite sonidos o gestos",
+          "Dice una palabra o dos",
+          "Combina dos o más palabras"
+        ],
+        "respuestas": [0, 1, 2, 3]
+      },
+      {
+        "texto": "¿Qué hace tu hijo cuando escucha una canción?",
+        "opciones": [
+          "Mira atentamente o se mueve al ritmo",
+          "Intenta imitar algunos sonidos o gestos",
+          "Repite algunas palabras o frases",
+          "Canta toda la canción o la inventa"
+        ],
+        "respuestas": [0, 1, 2, 3]
+      },
+      {
+        "texto": "¿Qué hace tu hijo cuando juega con otros niños?",
+        "opciones": [
+          "Observa o se acerca sin interactuar",
+          "Comparte o intercambia objetos",
+          "Nombra o pide cosas",
+          "Hace preguntas o comentarios"
+        ],
+        "respuestas": [0, 1, 2, 3]
+      },
+      {
+        "texto": "¿Qué hace tu hijo cuando ve un libro?",
+        "opciones": [
+          "Lo manipula o lo mira",
+          "Señala o hace sonidos",
+          "Identifica o nombra imágenes",
+          "Cuenta o inventa una historia"
+        ],
+        "respuestas": [0, 1, 2, 3]
+      },
+      {
+        "texto": "¿Qué hace tu hijo cuando quiere llamar tu atención?",
+        "opciones": [
+          "Llora o se ríe",
+          "Te toca o te mira",
+          "Te dice mamá o papá",
+          "Te dice una frase o una oración"
+        ],
+        "respuestas": [0, 1, 2, 3]
+      }
+    ],
+    "niveles": [
+      {
+        "nombre": "Descubridor",
+        "descripcion": "Tu hijo está en el nivel descubridor, lo que significa que está explorando el mundo que lo rodea y aprendiendo a comunicarse con gestos, miradas y sonidos. Puedes estimular su desarrollo ofreciéndole objetos variados, cantándole canciones, hablándole con cariño y respondiendo a sus señales.",
+        "imagen": "assets/images/descubridor.png"
+      },
+      {
+        "nombre": "Comunicador",
+        "descripcion": "Tu hijo está en el nivel comunicador, lo que significa que está usando el lenguaje para expresar sus necesidades, deseos y emociones. Puedes estimular su desarrollo ampliando sus sonidos y gestos con palabras, haciendo preguntas abiertas, leyéndole cuentos y jugando con él.",
+        "imagen": "assets/images/comunicador.png"
+      },
+      {
+        "nombre": "Primeras palabras",
+        "descripcion": "Tu hijo está en el nivel de primeras palabras, lo que significa que está ampliando su vocabulario y usando el lenguaje para nombrar, pedir, rechazar y saludar. Puedes estimular su desarrollo modelando palabras nuevas, corrigiendo sus errores, elogiando sus aciertos y conversando con él.",
+        "imagen": "assets/images/primeras_palabras.png"
+      },
+      {
+        "nombre": "Combinador",
+        "descripcion": "Tu hijo está en el nivel combinador, lo que significa que está formando frases y oraciones para describir, narrar, preguntar y comentar. Puedes estimular su desarrollo usando un lenguaje más complejo.",
+        "imagen": "assets/images/combinador.png"
+      }
+    ]
+  }
+  

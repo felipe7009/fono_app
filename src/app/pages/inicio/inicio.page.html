@@ -1,0 +1,69 @@
+<ion-header class="ion-no-border ">
+	<ion-toolbar>
+		
+
+		
+	</ion-toolbar>
+
+	<ion-item lines="none">
+
+		<ion-avatar slot="start">
+			<img src="../assets/images/avatar.jpg">
+    </ion-avatar>
+			<ion-label>
+				<p>HOLA</p>
+				<h3>BIENVENIDO</h3>
+			</ion-label>
+
+	</ion-item>
+
+</ion-header>
+
+<ion-content>
+
+  <div class="slides ion-margin-bottom">
+    
+    
+    <swiper [slidesPerView]="1" [spaceBetween]="10">
+      <ng-template swiperSlide>
+        <ion-card (click)="navigateToQuizPage()">
+          <ion-card-header>
+            <div class="main">
+              <img src="https://cdn-icons-png.flaticon.com/512/2279/2279034.png">
+            </div>
+            <img  height="250"  class="files" src="https://t4.ftcdn.net/jpg/02/07/07/57/240_F_207075711_e9nYa46WE9vt5eWhckQu9jQMLoB51sxW.jpg">
+          </ion-card-header>
+          <ion-card-content class="ion-text-left">
+            <ion-card-title class="ion-margin-bottom">Encuesta</ion-card-title>
+            <ion-card-subtitle class="ion-text-right"></ion-card-subtitle>
+            <ion-progress-bar value="0.5" color="dark"></ion-progress-bar>
+          </ion-card-content>
+        </ion-card>
+        
+      </ng-template>
+      <ng-template swiperSlide>
+        <ion-card (click)="navigateToEstimPorNivelesPage()">
+  <ion-card-header>
+    <div class="main">
+      <img src="https://images.vexels.com/media/users/3/136172/isolated/preview/148ec098a4529de7141003a8ec519d39-corazon-como-icono.png">
+    </div>
+    <img height="250" class="files" src="https://static.vecteezy.com/system/resources/previews/002/396/548/non_2x/happy-family-cartoon-style-design-free-vector.jpg">
+  </ion-card-header>
+  <ion-card-content class="ion-text-left">
+    <ion-card-title class="ion-margin-bottom">Estimulación por niveles</ion-card-title>
+    <ion-card-subtitle class="ion-text-right">10/50GB</ion-card-subtitle>
+    <ion-progress-bar value="0.4" color="warning"></ion-progress-bar>
+  </ion-card-content>
+</ion-card>
+
+      </ng-template>
+    </swiper>
+    
+    
+    
+
+
+  </div>
+
+  
+</ion-content>

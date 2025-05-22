@@ -1,0 +1,35 @@
+<ion-header color="primary">
+  <ion-toolbar>
+    <ion-title>SRP (Sistema Representacional Preferente)</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h1>Cuestionario</h1>
+  <ion-grid>
+    <p class="ion-text-wrap">Lea cuidadosamente cada pregunta y responda "si" o "no" según corresponda</p>
+    <br>
+    <ion-row *ngFor="let question of questions; let i = index">
+      <ion-col>
+
+        <!-- Preguntas -->
+        <ion-item class="ion-text-wrap">
+          <ion-label style="white-space: normal;"><strong>{{ question }}</strong></ion-label>
+        </ion-item>
+
+        <!-- Alternativas verticalmente -->
+        <ion-radio-group [(ngModel)]="selections[i]">
+          <ion-col *ngFor="let option of options; let j = index">
+            <ion-item>
+              <ion-label style="white-space: normal;">{{ option }}</ion-label>
+              <ion-radio slot="start" value="{{j + 1}}"></ion-radio>
+            </ion-item>
+          </ion-col>
+        </ion-radio-group>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-button expand="full" color="primary" (click)="calculateSum()">Finalizar test</ion-button>
+</ion-content>
+

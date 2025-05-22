@@ -1,0 +1,27 @@
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Material descargable</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <h2><strong>Material recortable:</strong></h2>
+
+      <p> </p> <br>
+      <div class="imagenes">
+          <ion-img [src]="gallina"  style="width: 250px; height: 250px"></ion-img>
+          <br>
+          <ion-button (click)="downloadImage(gallina)">Descargar gallina</ion-button>
+          <br>
+          <ion-img [src]="leon" style="width: 250px; height: 250px"></ion-img>
+          <br>
+          <ion-button (click)="downloadImage(leon)">Descargar león</ion-button>
+          <br>
+          <ion-img [src]="tortuga" style="width: 250px; height: 250px"></ion-img>
+          <br>
+          <ion-button (click)="downloadImage(tortuga)">Descargar tortuga</ion-button>
+          <br>
+      </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
